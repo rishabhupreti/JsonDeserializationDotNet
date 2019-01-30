@@ -20,7 +20,7 @@ Insecure Deserialization.
 In the deseriliazation settings, TypeNameHandling is set to all.The object that is deserialized is of the type System.Windows.Data.ObjectDataProvider which is used to spawn calculator and command prompt  
 to show the successful attack launch.
 
-##Secure Deserialization ((localhost/port_number/Home/SecureDeserialization))
+## Secure Deserialization ((localhost/port_number/Home/SecureDeserialization))
 A whitelist of models is created that will be deserialized.In the deseriliazation settings, it is specified that only known types should be binded.  
 The web application will throw an exception when a type of object which is not in the whitelist is deserialized.
 
